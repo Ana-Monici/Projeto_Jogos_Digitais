@@ -194,42 +194,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: "Hist\xF3ria\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Nam ultrices, nulla dictum feugiat vulputate, mauris neque interdum magna, ac
-    pharetra metus odio eu lacus. Pellentesque neque nisi, sodales a turpis ac, elementum
-    dictum lectus. Nunc lobortis velit eget ante vestibulum aliquet. Integer et est
-    varius, imperdiet sem sit amet, ullamcorper odio. Phasellus ullamcorper tincidunt
-    est. Nunc ornare vitae lorem vel consequat. Integer a nunc viverra, congue mauris
-    elementum, rutrum orci. Duis nec nibh eget erat vestibulum commodo at a massa.\r\n\r\nNullam
-    finibus porttitor bibendum. Quisque ut metus convallis tellus vulputate lobortis.
-    Nam dignissim pretium eleifend. Sed euismod, purus non imperdiet egestas, diam
-    metus rhoncus neque, vel semper quam arcu vitae dolor. Vestibulum sit amet leo
-    sem. Vivamus tristique laoreet ipsum, sed ornare mauris sodales vel. Pellentesque
-    mi urna, euismod eget porta id, porttitor a ex. Curabitur ut nisl pharetra, volutpat
-    risus id, egestas felis. Aenean in nisl massa. Aenean consectetur euismod ligula,
-    vitae scelerisque urna commodo quis. Nunc efficitur tellus ut elit sagittis,
-    vitae fringilla mauris hendrerit.\r\n\r\nPellentesque ultricies ligula id risus
-    auctor laoreet. Mauris lobortis lorem vulputate, dictum ex sit amet, congue felis.
-    Etiam sit amet lorem consequat, lacinia sapien eget, porttitor ex. Donec consectetur
-    tincidunt lectus. Integer molestie aliquet ante ut rhoncus. Donec a ligula blandit,
-    dapibus nisi et, auctor quam. Sed cursus hendrerit nulla eu scelerisque.\r\n\r\nPellentesque
-    et luctus nunc. Vestibulum iaculis magna at tortor rutrum, id dapibus neque ornare.
-    Duis odio augue, tempus sit amet vulputate quis, accumsan nec nunc. In elementum
-    sit amet purus nec pulvinar. Proin eu maximus augue. Curabitur nec pharetra lacus,
-    nec aliquam arcu. Nullam consequat, metus ac faucibus molestie, sapien nibh posuere
-    metus, vel tempus libero arcu a ex. Aenean porta tincidunt nibh, a posuere tellus
-    consequat eu. Nunc consequat elit pretium lorem congue, nec mollis diam eleifend.
-    Donec ac nunc ac odio varius interdum non eu est. Integer sodales est eget tempus
-    vestibulum. Morbi eu ante id massa tincidunt pharetra vitae a libero. Nullam
-    volutpat neque libero, eleifend venenatis dolor ultrices sit amet. Phasellus
-    mollis diam vitae ante commodo imperdiet. Pellentesque maximus vel justo et tincidunt.
-    Suspendisse tincidunt urna id est volutpat semper.\r\n\r\nCras placerat augue
-    et ornare tempor. Cras neque eros, lacinia et dui quis, malesuada ullamcorper
-    nunc. Quisque rhoncus nulla id lectus semper tempor. Aenean id nulla porttitor,
-    imperdiet leo in, tincidunt sem. Duis elit leo, volutpat ac euismod et, gravida
-    et sapien. Curabitur felis leo, posuere vehicula efficitur eget, pellentesque
-    at tellus. Suspendisse ullamcorper, elit quis iaculis commodo, nibh tortor euismod
-    nulla, a pharetra sapien lacus eget orci."
+  m_Text: "Ponto de vista do alien\xEDgena Saxan:\n\nEm mais um esfor\xE7o de estabelecer
+    rela\xE7\xF5es diplom\xE1ticas com os terr\xE1queos, o Imp\xE9rio Intergal\xE1tico
+    me enviou \xE0 Terra, junto com meu amigo Botobolba, para oferecer nossas tecnologias
+    de conten\xE7\xE3o de doen\xE7as em troca de permiss\xE3o para estudar os instrumentos
+    musicais humanos. Nosso planeta Yatik, fundador do Imp\xE9rio Intergal\xE1ctico,
+    conta com seus diplomatas para trazer o melhor aos Yodak e a todas as outras
+    ra\xE7as do nosso imp\xE9rio.\r\n\r\nChegando na Terra fomos surpreendidos com
+    uma recep\xE7\xE3o nada amistosa. Fomos sequestrados, separados um do outro e
+    mantidos em cativeiro no que parece ser uma usina nuclear abandonada. H\xE1 mercen\xE1rios
+    por toda parte, humanos claramente contratados para nos vigiar. Preciso sair
+    daqui r\xE1pido e encontrar Botobolba!"
 --- !u!222 &22616339
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -884,7 +859,7 @@ RectTransform:
   m_GameObject: {fileID: 1625879829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_LocalScale: {x: 16, y: 16, z: 1}
   m_Children: []
   m_Father: {fileID: 51557031}
   m_RootOrder: 0
@@ -932,6 +907,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625879829}
   m_CullTransparentMesh: 1
+--- !u!1 &1726242845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1726242847}
+  - component: {fileID: 1726242846}
+  m_Layer: 0
+  m_Name: BackgroundMusic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1726242846
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726242845}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7fd2ad2a7376d8744baa9d15c984b6b9, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1726242847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726242845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 534.3936, y: 154.19113, z: 490.86755}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1772381661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,7 +1195,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1772381663}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 41781202}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: LoadFase1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1877537094
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -39,6 +39,18 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("MenuInicial");
     }
 
+    // Carrega a cena "Fase1"
+    public void LoadFase1()
+    {
+        SceneManager.LoadScene("Fase1");
+    }
+
+    // Carrega a cena "Fase2"
+    public void LoadFase2()
+    {
+        SceneManager.LoadScene("Fase2");
+    }
+
     // Fecha o jogo
     public void ExitGame()
     {
